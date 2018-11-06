@@ -15,6 +15,7 @@ const en = {
     },
     maps: {
         RU: 'Russian Federation',
+        RU_DT: 'Russian Federation with disputed territories',
         UA: 'Ukraine',
         worldPalestine: 'World'
     }
