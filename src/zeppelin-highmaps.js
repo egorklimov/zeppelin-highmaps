@@ -197,6 +197,11 @@ export default class ZeppelinHighmaps extends Visualization {
      */
     createChartContainer() {
         // TBD: several maps for one data set.
+        if (this.targetEl[0].childElementCount > 0) {
+            while (this.targetEl[0].lastElementChild) {
+                this.targetEl[0].removeChild(this.targetEl[0].lastElementChild);
+            }
+        }
         const chartContainerHtml = `<div id="${this.instanceId}-chart-container" `
             + 'style="height: 100%; flex: 1; display: flex; flex-direction: row;" '
             + '></div>';
@@ -205,6 +210,13 @@ export default class ZeppelinHighmaps extends Visualization {
         return this.chartContainer;
     }
 
+    /**
+     * @override
+     *
+     */
+    refresh() {
+        this.redrawChart();
+    }
 
     /**
      * Returns Angular definition for settings panel.

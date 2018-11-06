@@ -14,7 +14,7 @@ const en = {
         emptySet: 'Data set is empty. Please, ensure map is selected correctly.'
     },
     maps: {
-        RU: 'Russia Federation',
+        RU: 'Russian Federation',
         UA: 'Ukraine',
         worldPalestine: 'World'
     }
