@@ -1,0 +1,9 @@
+{
+  "type": "VISUALIZATION",
+  "name": "zeppelin-highmaps-RU_DT",
+  "version": "1.0.0",
+  "description": "Zeppelin plugin to visualize data using Highmaps",
+  "artifact": "./zeppelin-examples/zeppelin-highmaps",
+  "license": "Apache-2.0",
+  "icon": "<i class='fa fa-map-marker'></i>"
+}
