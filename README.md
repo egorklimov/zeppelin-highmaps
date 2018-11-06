@@ -30,7 +30,7 @@ Please, contribute to the project to add new maps.
 
 * Chart containers fixed
 <p align="center">
-  <img src="https://github.com/egorklmov/zeppelin-highmaps/blob/master/screenshots/bug_fix.gif">
+  <img src="https://github.com/egorklimov/zeppelin-highmaps/blob/master/screenshots/bug_fix.gif">
 </p>
 
 * Added input data for Russian Federation (with disputed territories) as in [the Highchart mapdata](https://code.highcharts.com/mapdata/)
