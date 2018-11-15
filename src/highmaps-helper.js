@@ -140,6 +140,10 @@ function createHighchartsMapInstance(params, colorAxisDataClasses) {
                 hover: {
                     color: '#724cf9'
                 }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}'
             }
         }]
     }, function (chart) {
